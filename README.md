@@ -9,7 +9,7 @@
 <p align="center">
  <a href="#user-content-sobre-o-projeto">Sobre o projeto</a> |
  <a href="#user-content-executando-o-projeto">Executando o projeto</a> |
- <a href="#user-endpoint">Endpoint</a> |
+ <a href="#user-content-endpoint">Endpoint</a> |
  <a href="#user-content-tecnologias">Tecnologias</a>
 </p>
 
@@ -45,7 +45,7 @@ $ npm run dev
 # Para acessar o projeto, navegue para http://localhost:5000
 ```
 
-## Endpoint
+## **Endpoint**
 
 Para encurtar uma url faça a requisição `POST` em `localhost:5000/shorten` passando o seguinte corpo:
 ```json

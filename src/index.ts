@@ -1,6 +1,12 @@
 import express, { NextFunction, Request, Response } from 'express';
+import shortenRoute from './routes/shorten.routes';
 
 const api = express();
+
+api.use(express.json());
+api.use(express.urlencoded({ extended: true }));
+
+api.use(shortenRoute);
 
 api.use('/test', (req: Request, res: Response, next: NextFunction) => {
   res.json({ success: true });
